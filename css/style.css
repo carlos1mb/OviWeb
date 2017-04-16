@@ -52,7 +52,7 @@ nav {
 	left : 0;
 	width : 100%;
 	background-image: url(../img/boton.png);
-	z-index: 5
+	z-index: 10
 }
 nav ul {
 	display: flex;
@@ -75,6 +75,7 @@ nav ul li a {
 	text-decoration : none;
 	color : #ccc;
 }
+
 nav ul li a:hover {
 	color : #fff;
 	}
@@ -85,8 +86,20 @@ nav ul li.selected a {
 nav ul li ul {
 	display: none;
 	float: left;
-
 	}
+
+	nav li ul li ul {
+	display: none;
+   width: 250px;
+   margin:0;
+   display:none;
+   background:#004669;
+   border:1px #ccc solid;
+   text-align: right;
+   position: absolute;
+   left: 65%;
+   top: 0px;
+}
 
 nav ul li a:hover + ul, nav ul li ul:hover {
 		display: block;
@@ -99,6 +112,7 @@ nav li li a{
 }
 
 nav li ul {
+   display: none;
    width: 250px;
    margin:0;
    display:none;
@@ -106,12 +120,16 @@ nav li ul {
    border:1px #ccc solid;
    text-align: right;
    position: absolute;
-   left: 20%;
+   left: 0%;
    top: 40px;
 }
+
 nav li:hover ul {
-   display: block;
+   display: none;
 }
+
+
+
 p{
 	font-family: 'Open Sans', sans-serif;
 	margin-left: 20px;
