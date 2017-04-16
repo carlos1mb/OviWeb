@@ -113,13 +113,23 @@ nav li:hover ul {
    display: block;
 }
 p{
-	margin-left: 25px;
-	margin-right: 25px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
 	text-decoration: none;
 	float: left;
 	text-align : justify;
 }
 
+#Cuadro {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	float: left;
+	text-align : left;
+}
 section{
 	position: relative;
 	width: 700px;
@@ -132,8 +142,8 @@ section{
 	border-top-left-radius: 0;
 }
 
-#izquierda { position: relative; width: 50%; top: 0; left: 0; background: #ccc; float: left; height: 300px; } 
-#derecha { position: relative; width: 50%; top: 0; right: 0; background: #ccc; float: right; height: 300px; } 
+#izquierda { position: relative; width: 350px; top: 0; left: 0; background: #ccc; float: left; height: 300px; } 
+#derecha { position: relative; width: 350px; top: 0; right: 0; background: #ccc; float: right; height: 300px; } 
 
 aside{
 	width: 298px;
