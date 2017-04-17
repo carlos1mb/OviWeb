@@ -177,10 +177,15 @@ aside{
 
 #twi {
 	position: relative;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: 50px;
 }
 
+#twi2 {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 0px;
+}
 aside ul{
 	display: flex;
 	margin : 0 auto;
