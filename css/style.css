@@ -175,6 +175,12 @@ aside{
 	border-top-left-radius: 0;
 }
 
+#twi {
+	position: relative;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
 aside ul{
 	display: flex;
 	margin : 0 auto;
